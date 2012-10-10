@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="ac9edcb8-dca7-4566-a247-574f729e54da" Publisher="CN=Sundar" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>ShlokasInEnglish</DisplayName>
+    <PublisherDisplayName>AppsBySundar</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="ShlokasInEnglish.App">
+      <VisualElements DisplayName="Shlokas In English" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="A collection of popular Hindu hymns (Shlokas) with the original and english translation." ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" WideLogo="Assets\WideLogo.png" />
+        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#0026FF" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
